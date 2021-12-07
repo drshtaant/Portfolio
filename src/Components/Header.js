@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        {/* <ParticlesBg type="circle" bg={true} /> */}
        
 
         <nav id="nav-wrap">

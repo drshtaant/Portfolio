@@ -34,7 +34,7 @@ class Contact extends Component {
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
-                  {/* <div>
+                  <div>
                     <label htmlFor="contactName">
                       Name <span className="required">*</span>
                     </label>
@@ -46,9 +46,9 @@ class Contact extends Component {
                       name="contactName"
                       onChange={this.handleChange}
                     />
-                  </div> */}
+                  </div>
 
-                  {/* <div>
+                  <div>
                     <label htmlFor="contactEmail">
                       Email <span className="required">*</span>
                     </label>
@@ -60,9 +60,9 @@ class Contact extends Component {
                       name="contactEmail"
                       onChange={this.handleChange}
                     />
-                  </div> */}
+                  </div>
 
-                  {/* <div>
+                  <div>
                     <label htmlFor="contactSubject">Subject</label>
                     <input
                       type="text"
@@ -72,19 +72,19 @@ class Contact extends Component {
                       name="contactSubject"
                       onChange={this.handleChange}
                     />
-                  </div> */}
+                  </div>
 
-                  {/* <div>
+                  <div>
                     <label htmlFor="contactMessage">
                       Message <span className="required">*</span>
                     </label>
                     <textarea
-                      cols="50"
-                      rows="15"
+                      cols="10"
+                      rows="1"
                       id="contactMessage"
                       name="contactMessage"
                     ></textarea>
-                  </div> */}
+                  </div>
 
                   <div>
                     <button className="submit">Email Me</button>
@@ -95,58 +95,14 @@ class Contact extends Component {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning"> Error! </div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
               </div>
             </div>
           </Slide>
-
-          <Slide right duration={1000}>
-            <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
-                <p className="address">
-                  {name}
-                  <br />
-                  {street} <br />
-                  {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
-                </p>
-              </div>
-
-              {/* <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">2 Days Ago</a>
-                    </b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">3 Days Ago</a>
-                    </b>
-                  </li>
-                </ul>
-              </div> */}
-            </aside>
-          </Slide>
+          
         </div>
       </section>
     );

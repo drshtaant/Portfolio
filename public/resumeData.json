@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Adarsh Kumar",
-    "description":"Web Developer",
+    "description":"Graduate | Student | Full stack web developer | MERN Stack Developer | Machine Learning | Technical Content Writer",
     "image":"profilepic.jpg",
     "bio":"Information Technology Graduate from MAKAUT University, Class of 2021. Being a technology enthusiast, I love exploring new technologies and leveraging them to solve real-life problems. I'm driven by the will to create an impact and encourage diversity and grow on a personal front. Good analytical and problem-solving skills and proficiency inverbal and communication skills",
     "contactmessage":"Want to get in touch with me?",
@@ -189,76 +189,28 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Company Website",
+        "category":"Made this website for the company I have done internship",
+        "image":"arnxt.png",
+        "url":"https://www.arnxt.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Project",
+        "category":"My final year project",
+        "image":"grocery.png",
+        "url":"https://e-commerce-adarsh.herokuapp.com/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"My Portfolio",
+        "category":"Know about me",
+        "image":"portfolio.png",
+        "url":"https://adarsh-portfolio.herokuapp.com/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Social App",
+        "category":"A Social App just for fun",
+        "image":"social.png",
+        "url":"https://social-app-adarsh.herokuapp.com/"
       }
     ]
   }

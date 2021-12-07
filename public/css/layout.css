@@ -23,7 +23,8 @@
 /* ------------------------------------------------------------------ */
 
 body {
-  background: #0f0f0f;
+  background: #22223b;
+  
 }
 
 /* ------------------------------------------------------------------ */
@@ -200,7 +201,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #000524;
+  background: #161a1d;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -258,7 +259,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #e9ecef;
+  background: #161a1d;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -274,20 +275,23 @@ ul#nav li.current a {
 }
 
 #resume h1 {
+  color: #e9edc9;
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #0762f9;
+  border-bottom: 3px solid #e9edc9;
   padding-bottom: 6px;
 }
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
+  color: #fff !important; 
 }
 
 #resume .header-col {
   padding-top: 9px;
+  color: #ccd5ae;
 }
 #resume .main-col {
   padding-right: 10%;
@@ -301,17 +305,19 @@ ul#nav li.current a {
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
+  color: #ccd5ae;
   margin-bottom: 18px;
   margin-top: 9px;
 }
 #resume .info span {
   margin-right: 5px;
   margin-left: 5px;
+  color: #f0efeb;
 }
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+  color: #f0efeb;
 }
 
 /*----------------------------------------------*/
@@ -328,23 +334,23 @@ ul#nav li.current a {
   margin-top: 36px;
   list-style: none;
 }
-.bars li {
+/* .bars li {
   position: relative;
   margin-bottom: 60px;
   background: #333;
   height: 42px;
   border-radius: 0px;
-}
+} */
 .bars li em {
   font: 15px "opensans-bold", sans-serif;
-  color: #313131;
+  color: #f0efeb;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
   position: relative;
   top: -36px;
 }
-.bar-expand {
+/* .bar-expand {
   position: absolute;
   left: 0;
   top: 0;
@@ -356,7 +362,7 @@ ul#nav li.current a {
   height: 42px;
   line-height: 42px;
   border-radius: 0px;
-}
+} */
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -460,7 +466,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #e9edc9;
 }
 
 /* Portfolio Content */
@@ -927,6 +933,7 @@ call-to-action .button {
 /* contact form */
 #contact form {
   margin-bottom: 30px;
+  
 }
 #contact label {
   font: 15px/24px "opensans-bold", sans-serif;
@@ -1027,7 +1034,7 @@ call-to-action .button {
 footer {
   padding-top: 48px;
   margin-bottom: 48px;
-  color: #303030;
+  color: #f0efeb;
   font-size: 14px;
   text-align: center;
   position: relative;
